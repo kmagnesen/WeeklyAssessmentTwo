@@ -14,6 +14,9 @@
 		F9197D1A1A696257001029EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9197D191A696257001029EF /* Images.xcassets */; };
 		F9197D1D1A696257001029EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9197D1B1A696257001029EF /* LaunchScreen.xib */; };
 		F9197D291A696257001029EF /* WeeklyAssessmentTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9197D281A696257001029EF /* WeeklyAssessmentTwoTests.m */; };
+		F9197D341A69634E001029EF /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = F9197D331A69634E001029EF /* City.m */; };
+		F9197D371A696712001029EF /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9197D361A696712001029EF /* CityViewController.m */; };
+		F91A354A1A6974B300D09B63 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91A35491A6974B300D09B63 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		F9197D221A696257001029EF /* WeeklyAssessmentTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeklyAssessmentTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9197D271A696257001029EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9197D281A696257001029EF /* WeeklyAssessmentTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeklyAssessmentTwoTests.m; sourceTree = "<group>"; };
+		F9197D321A69634E001029EF /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		F9197D331A69634E001029EF /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		F9197D351A696712001029EF /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		F9197D361A696712001029EF /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		F91A35481A6974B300D09B63 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F91A35491A6974B300D09B63 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,13 @@
 				F9197D111A696257001029EF /* AppDelegate.m */,
 				F9197D131A696257001029EF /* ViewController.h */,
 				F9197D141A696257001029EF /* ViewController.m */,
+				F9197D351A696712001029EF /* CityViewController.h */,
+				F9197D361A696712001029EF /* CityViewController.m */,
+				F91A35481A6974B300D09B63 /* WebViewController.h */,
+				F91A35491A6974B300D09B63 /* WebViewController.m */,
 				F9197D161A696257001029EF /* Main.storyboard */,
+				F9197D321A69634E001029EF /* City.h */,
+				F9197D331A69634E001029EF /* City.m */,
 				F9197D191A696257001029EF /* Images.xcassets */,
 				F9197D1B1A696257001029EF /* LaunchScreen.xib */,
 				F9197D0C1A696257001029EF /* Supporting Files */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9197D151A696257001029EF /* ViewController.m in Sources */,
+				F91A354A1A6974B300D09B63 /* WebViewController.m in Sources */,
 				F9197D121A696257001029EF /* AppDelegate.m in Sources */,
+				F9197D371A696712001029EF /* CityViewController.m in Sources */,
+				F9197D341A69634E001029EF /* City.m in Sources */,
 				F9197D0F1A696257001029EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +430,7 @@
 				F9197D2E1A696257001029EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9197D2F1A696257001029EF /* Build configuration list for PBXNativeTarget "WeeklyAssessmentTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				F9197D311A696257001029EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
